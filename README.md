@@ -26,7 +26,7 @@ API reference: https://www.terraform.io/docs/cloud/api/workspaces.html
 
 ## Example usage
 
-uses: sarathkrish/terraform-workspace@pre-release6  
+uses: sarathkrish/terraform-workspace@v1.0 
 with:  
 &nbsp;&nbsp;workSpaceName: MyTestWorkspace  
 &nbsp;&nbsp;organizationName: {{env.organization}}  
