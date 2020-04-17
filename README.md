@@ -29,8 +29,8 @@ API reference: https://www.terraform.io/docs/cloud/api/workspaces.html
 ```
 uses: sarathkrish/terraform-workspace@v1.1   
 with:  
-&nbsp;&nbsp;workSpaceName: MyTestWorkspace  
-&nbsp;&nbsp;organizationName: {{env.organization}}  
-&nbsp;&nbsp;terraformToken: {{secrets.Terraform_Token}}
+  workSpaceName: MyTestWorkspace  
+  organizationName: {{env.organization}}  
+  terraformToken: {{secrets.Terraform_Token}}
 
 ```
