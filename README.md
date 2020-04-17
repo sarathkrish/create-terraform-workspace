@@ -1,6 +1,6 @@
 # Terraform Workspace action
 
-This action create Terraform Workspace in Terraform Cloud or in Terraform Enterprise using Terraform API  
+This action create Terraform Workspace in Terraform Cloud using Terraform API  
 https://app.terraform.io/api/v2/organizations/YourOrganization/workspaces"  
 API reference: https://www.terraform.io/docs/cloud/api/workspaces.html  
 
