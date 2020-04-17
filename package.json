@@ -1,0 +1,24 @@
+{
+  "name": "terraform-workspace",
+  "version": "1.0.0",
+  "description": "GitHub Action to create terraform workspace using terraform API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarathkrish/terraform-workspace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarathkrish/terraform-workspace/issues"
+  },
+  "homepage": "https://github.com/sarathkrish/terraform-workspace#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "axios": "^0.19.2"
+  }
+}

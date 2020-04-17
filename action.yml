@@ -1,0 +1,18 @@
+name: 'Create Terraform Workspace'
+description: 'Invoke Terraform API to create workspce in Terraform Cloud.'
+inputs:
+  workSpaceName:
+    description: 'Terraform workspace name'
+    required: true
+  organizationName:
+    description: 'Terraform organization Name'
+    required: true
+  terraformToken:
+    description: 'Terraform Token'
+    required: true
+outputs:
+  workSpaceId: 
+    description: 'Terraform WorkspaceId'
+runs:
+  using: 'node12'
+  main: 'index.js'
