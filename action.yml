@@ -10,6 +10,9 @@ inputs:
   terraformToken:
     description: 'Terraform Token'
     required: true
+  terraformHost:
+    description: 'Terraform Host Name'
+    required: true
 outputs:
   workSpaceId: 
     description: 'Terraform WorkspaceId'

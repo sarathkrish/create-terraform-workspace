@@ -5,10 +5,11 @@ try{
     const workSpaceName = core.getInput('workSpaceName');
     const organizationName = core.getInput('organizationName');
     const token = core.getInput('terraformToken');
+    const terraformHost = core.getInput('terraformHost');
     let request = { data : { attributes: { name : workSpaceName, type: "workspaces"}}};
     console.log("request:" + JSON.stringify(request));
 
-    const terraformEndpoint = "https://app.terraform.io/api/v2/organizations/"+organizationName+"/workspaces";
+    const terraformEndpoint = "https://"+terraformHost+"/api/v2/organizations/"+organizationName+"/workspaces";
     const options = {
         headers: {'Content-Type': 'application/vnd.api+json',
                   'Authorization': 'Bearer '+token

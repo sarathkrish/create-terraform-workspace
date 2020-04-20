@@ -18,6 +18,10 @@ API reference: https://www.terraform.io/docs/cloud/api/workspaces.html
 
 **Required** Your Terraform token. Please use secret to store your Terraform token.
 
+ ### `terraformHost`
+
+**Required** This is the Terraform Host Name. For Tarraform cloud its app.terraform.io.
+
 ## Outputs
 
 ### `workSpaceId`
@@ -32,5 +36,6 @@ with:
   workSpaceName: MyTestWorkspace  
   organizationName: {{env.organization}}  
   terraformToken: {{secrets.Terraform_Token}}
+  terraformHost: 'app.terraform.io'
 
 ```
