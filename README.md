@@ -31,7 +31,7 @@ API reference: https://www.terraform.io/docs/cloud/api/workspaces.html
 ## Example usage
 
 ```
-uses: sarathkrish/terraform-workspace@v1.1   
+uses: sarathkrish/terraform-workspace@v1.2   
 with:  
   workSpaceName: MyTestWorkspace  
   organizationName: {{env.organization}}  
